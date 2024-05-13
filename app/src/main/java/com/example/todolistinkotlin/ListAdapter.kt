@@ -7,9 +7,6 @@ import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.example.todolistinkotlin.databinding.ItemTolistBinding
 
-/**
- *   Created by Swati Kulkarni on 2/8/19.
- */
 class ListAdapter(private val listData: List<ToDoListData>, private val onClick: OnItemClick) :
     RecyclerView.Adapter<ListViewHolder>() {
     override fun getItemCount(): Int = listData.size

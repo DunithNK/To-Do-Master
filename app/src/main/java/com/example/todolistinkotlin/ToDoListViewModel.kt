@@ -19,9 +19,6 @@ import com.example.todolistinkotlin.database.ToDoListDatabase
 import com.example.todolistinkotlin.notification.AlarmReceiver
 import java.util.*
 
-/**
- *   Created by Swati Kulkarni on 5/8/19.
- */
 class ToDoListViewModel(val context: Application) : AndroidViewModel(context) {
     var toDoListData = MutableLiveData<ToDoListData>()
 

@@ -5,10 +5,6 @@ import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 
-/**
- *   Created by Swati Kulkarni on 13/8/19.
- */
-
 @Database(entities = arrayOf(ToDoListDataEntity::class), version = 1 )
 abstract class ToDoListDatabase : RoomDatabase(){
 

@@ -4,10 +4,6 @@ import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.Query
 
-/**
- *   Created by Swati Kulkarni on 13/8/19.
- */
-
 @Dao
 interface ToDoListDAO {
     @Query("SELECT * from todolist")
